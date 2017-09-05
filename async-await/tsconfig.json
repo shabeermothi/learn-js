@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "allowJs": true,
+        "outDir": "dist",
+        "lib": [
+            "esnext"
+        ]
+    },
+    "files": [
+        "for-await-of.js"        
+    ]
+}

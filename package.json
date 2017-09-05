@@ -4,7 +4,8 @@
   "description": "",
   "main": "async-await-github-user-api.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:forawait": "tsc -p ./async-await"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,8 @@
   "homepage": "https://github.com/shabeermothi/learn-js#readme",
   "dependencies": {
     "node-fetch": "^1.7.2"
+  },
+  "devDependencies": {
+    "typescript": "^2.5.2"
   }
 }
